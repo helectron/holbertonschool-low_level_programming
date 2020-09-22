@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-*main - numbers of base 10 follow by a new line
+*main: numbers of base 10 follow by a new line
 *return: 0 (sucess)
 */
 
