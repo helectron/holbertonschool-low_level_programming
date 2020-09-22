@@ -4,8 +4,8 @@
  * Print a-z in lowercase with putchar
  * Return: 0 (success).
  */
-int /* The main function will return a 0 if success*/
-main(void) /* This is the name, in this case main*/
+int 
+main(void)
 {
 	char c = 'a';
 
