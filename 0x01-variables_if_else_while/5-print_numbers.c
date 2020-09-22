@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
-*main: numbers of base 10 follow by a new line
-*return: 0 (sucess)
+* main - Entry point of put gigits from 0 in base 10.
+* Return: 0 (success).
 */
 
 int /*data type for the function, that will usually returns 0 if success */
