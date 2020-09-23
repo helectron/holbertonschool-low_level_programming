@@ -18,5 +18,6 @@ main(void) /*main: function for print ascendent digits with commas*/
 			putchar(' ');
 		}
 	}
+	putchar(10);
 	return (0);
 }
