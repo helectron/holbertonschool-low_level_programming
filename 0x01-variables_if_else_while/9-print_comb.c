@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry point ascendent digits
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int /*data type integrers*/
+main(void) /*main: function for print ascendent digits with commas*/
 {
 	int n;
 
