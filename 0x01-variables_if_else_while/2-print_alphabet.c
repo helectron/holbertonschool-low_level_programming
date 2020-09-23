@@ -7,8 +7,8 @@
  * Return: 0 (success).
  */
 
-int /*the main function will usually returns 0 if success */
-main(void) /*this is the namem in this case main*/
+int /*the main function will xsxcxsusually returns 0 if success */
+main(void) /*this is the name in this case main*/
 {
 	char c = 'a';
 
