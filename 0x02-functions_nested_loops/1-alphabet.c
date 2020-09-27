@@ -1,11 +1,12 @@
 #include "holberton.h"
 
 /**
- * main - entry point to print_alphabet in lowercase with just 2 _putchar.
+ * main - print_alphabet in lowercase with just 2 _putchar.
  *
  * Return: void.
  */
-void print_alphabet(void)
+void print_alphabet(void) /* entry poin */
+
 {
 	int c = 0;
 
