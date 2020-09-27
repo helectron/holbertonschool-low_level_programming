@@ -5,7 +5,7 @@
  *
  * Return: void.
  */
-void print_alphabet(void)
+void print_alphabet(void) /* function ti print the alphabeth */
 {
 	int c = 0;
 
