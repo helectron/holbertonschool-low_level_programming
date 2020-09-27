@@ -2,7 +2,7 @@
 
 /**
  * _islower - entry point for detecting lowercase letters
- *%c: character is the parameter to validate
+ *@c: character is the parameter to validate
  *Return: 1 if c is lowercase, 0 otherwise
  */
 
