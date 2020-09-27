@@ -16,5 +16,6 @@ for (x = 0; x < 10; x++)
 for (alph = 97; alph <= 122; alph++)
 _putchar (alph);
 }
+alph = 122;
 _putchar(10);
 }
