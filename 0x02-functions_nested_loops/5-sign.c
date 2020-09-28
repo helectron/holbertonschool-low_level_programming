@@ -2,7 +2,7 @@
 
 /**
  * print_sign
- *validate if the @n argument is negative, positive or zero
+ * validate if the (@n) integer  argument is negative, positive or zero
  * Return: 1, 0 or -1 according to the sign of the argument
  */
 int print_sign(int n)
