@@ -2,7 +2,8 @@
 
 /**
  * reset_to_98 - main updates the value it points
- * Return: void
+ *@n 
+ *Return: void
  */
 
 void reset_to_98(int *n)
