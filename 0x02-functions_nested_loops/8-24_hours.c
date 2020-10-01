@@ -10,6 +10,7 @@ void jack_bauer(void)
 
 {
 	int m1, m2, h1, h2;
+
 	for (m1 = 0; m1 < 3; m1++)
 	{
 		if (m1 < 2)
