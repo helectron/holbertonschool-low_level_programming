@@ -4,7 +4,7 @@
  * swamp_int - main
  *@a: pointers
  *@b: swamp value
- *Return: nothing
+ *Return: void
  */
 
 void swap_int(int *a, int *b)
