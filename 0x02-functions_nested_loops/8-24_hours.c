@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - print every minute of the day
- *
  * Return: 0 for succes
  */
 
