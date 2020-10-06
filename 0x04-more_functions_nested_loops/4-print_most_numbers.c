@@ -1,14 +1,22 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_most_numbers - check the code for Holberton School students.
  *
- * Return: Always 0.
+ * Return: no.
  */
-int print_most_numbers(void)
-{
-	int [22] = "0, 1, 3, 5, 6, 7, 8, 9, \n";
-	_putchar(int [])
 
-	return (0);
+void print_most_numbers(void)
+{
+	int i;
+
+	for (i = 48; i <= 57; i++)
+	{
+		if (i != 50 && i != 52)
+		{
+			_putchar(i);
+		}
+	}
+	_putchar(10);
 }
+
