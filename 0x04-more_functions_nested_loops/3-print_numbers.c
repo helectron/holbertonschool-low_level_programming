@@ -2,7 +2,7 @@
 
 /**
  *print_numbers - check the code for Holberton School students.
- *
+ *@a: int parameter
  *Return: no.
  */
 
