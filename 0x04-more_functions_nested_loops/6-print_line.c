@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * print_line - print (_) a number of times 
- * @n: size
- *
- */
+* print_line - to print (_) a number of times
+* @n: size
+*return: no
+*/
 void print_line(int n)
 {
 	int i;
