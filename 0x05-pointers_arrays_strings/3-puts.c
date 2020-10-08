@@ -1,16 +1,17 @@
 #include "holberton.h"
 
 /**
- *_puts - main
- *@str: - pointer
+ *_puts - prints a string
+ *@str: - line to print
  *
  */
 
 void _puts(char *str)
 {
-	char s[64] = "Holberton";
-	int x;
-
-	for (x = 0; x <= 64; x++)
-		_putchar(x[s]);
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar(10);
 }
