@@ -9,5 +9,5 @@
 int _atoi(char *s)
 {
 	(void)s;
-	return(0);
+	return (0);
 }
