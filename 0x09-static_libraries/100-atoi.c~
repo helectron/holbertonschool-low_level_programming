@@ -1,0 +1,12 @@
+#include "holberton.h"
+/**
+ *_atoi - allow convert a string of numbers into int
+ *
+ *@s: pointer char type
+ *Return: 0
+ */
+
+int _atoi(char *s);
+{
+(void) s;
+}
