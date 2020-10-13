@@ -19,7 +19,7 @@ int main(void)
 		{
 			putchar(n);
 			putchar(n2);
-			if (n <= 57 || n2 <= 57)
+			if (n != 57 || n2 != 57)
 			{
 				putchar(',');
 				putchar(' ');
