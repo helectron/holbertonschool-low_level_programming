@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * malloc_checked - using malloc to allocate memory 
- *@b: bytes allocate 
+ * malloc_checked - using malloc to allocate memory
+ *@b: bytes allocate
  *Return: pointer
  */
 
