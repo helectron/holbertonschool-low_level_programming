@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <string.h>
 /**
  * print_rev - prints string
  * @s: input
