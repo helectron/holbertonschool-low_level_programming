@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <string.h>
+
 /**
  * print_rev - prints string
  * @s: input
@@ -8,16 +8,18 @@
 
 void rev_string(char *s)
 {
-	int i;
-	int j;
-	int largo = strlen(s);
+	int x, y, z;
 	char a;
 
-	for (i = 0, j = largo - 1; i < j; i++, j--)
+	for (x = 0; s[x] != '\0'; x++)
+		;
+	z = x;
+	x--;
+	for (y = 0; y < z / 2; y++)
 	{
-		a = s[i];
-		s[i] = s[j];
-		s[j] = a;
+		a = s[y];
+		s[y] = s[x];
+		s[x] = a;
+		x--;
 	}
 }
-
