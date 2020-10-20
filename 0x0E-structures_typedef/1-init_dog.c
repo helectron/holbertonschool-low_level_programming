@@ -3,7 +3,7 @@
 /**
  * init_dog - initialize function for struct dog
  * @d: pointer to dog structure
- * @name: pointer to the dog´s name 
+ * @name: pointer to the dog´s name
  * @age: age of the dog
  * @owner: pointer to the dog´s owner
  * Return: void
