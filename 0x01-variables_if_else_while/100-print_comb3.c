@@ -16,10 +16,12 @@ int main(){
 			putchar(a);
 			putchar(b);
 			if (a == 56 && b == 57)
+			{
 				putchar(10);/*print a new line if the if condition satisfy */
+				break;
+			}
 			putchar(','); /*put a comma */
 			putchar(32); /*print a space */
-			
 		}
 	}
 	return (0);
