@@ -3,15 +3,16 @@
 /**
  * main - Entry point, print a combinations of 2 digits
  * Return: 0 for success
- * */
+ */
 
-int main(){
+int main(void)
+{
 	int a;
 	int b;
 
 	for (a = 48; a <= 57; a++) /*loop until a i equal to 9, same as 57 in ASCII */
 	{
-		for (b = a + 1; b<= 57; b++) /*b is one more than a*/
+		for (b = a + 1; b <= 57; b++) /*b is one more than a*/
 		{
 			putchar(a);
 			putchar(b);
