@@ -19,7 +19,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')  /*If number is negative update the sign */
 		sign *= -1;
-		
+
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			while (s[i] >= '0' && s[i] <= '9')
