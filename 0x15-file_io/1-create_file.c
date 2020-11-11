@@ -15,7 +15,7 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 
 	/*read. if the file already exists, truncate it */
-	f_i = open(filename, O_RDWR | O_CREAT | O_TRUNC, 600);
+	f_i = open(filename, O_WRONLY | O_CREAT | O_TRUNC, 0600);
 
 	if (f_i == -1)
 		return (-1);
