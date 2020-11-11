@@ -21,17 +21,16 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content == NULL) /*if text content is NULL create an empty file*/
 		return (1);
-
+		
 	for (count = 0; text_content[count]; count++) /*lenght of the text content*/
 		;
 
 	f_o = write(f_i, text_content, count); /*write*/
 	if (f_o == -1)
-	{
 		return (-1);
-	}
 	close(f_i);
 	return (1);
 }
+
 
 
