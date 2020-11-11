@@ -30,10 +30,19 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(text);
 		return (0);
 	}
-	error = write(STDOUT_FILENO, text, total); /*write*/
-	close(file);
+	if (total > 0)
+		error = write(STDOUT_FILENO, text, total); /* write*/
+	if (error < total)
+	{
+		free(text);
+		return (0);
+	}
+	error = close(file);
+	if (error == -1)
+	{
+		free(text);
+		return (0);
+	}
 	free(text);
-	if (error == total)
-		return (total);
-	return (0);
+	return (total);
 }
